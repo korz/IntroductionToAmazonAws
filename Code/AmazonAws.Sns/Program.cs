@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            var topicArn = Repository.CreateTopic("thatconference");
+            var topicArn = Repository.CreateTopic("korzSNS");
 
             Repository.CreateEmailSubscription(topicArn, "example@live.com");
 
-            Repository.PublishMessage(topicArn, "Hello That Conference");
+            Repository.PublishMessage(topicArn, "Hello World");
         }
     }
 }

@@ -6,7 +6,7 @@
         {
             Repository.Send("example@live.com",
                 "example@live.com", null,"Subject",
-                "Hello ThatConference");
+                "Hello World");
         }
     }
 }

@@ -2,7 +2,7 @@
 {
     class Program
     {
-        private const string QueueName = "thatconference";
+        private const string QueueName = "korzSQS";
 
         static void Main(string[] args)
         {

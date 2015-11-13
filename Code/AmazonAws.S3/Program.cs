@@ -2,7 +2,7 @@
 {
     class Program
     {
-        private const string BucketName = "thatconference";
+        private const string BucketName = "korzS3";
 
         static void Main(string[] args)
         {

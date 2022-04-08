@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAws.S3", "AmazonAws.S3\AmazonAws.S3.csproj", "{0B5A13BC-C0EF-47B9-AE86-00E89EB95228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAws.Ses", "AmazonAws.Ses\AmazonAws.Ses.csproj", "{9CE98604-1C5C-4F5F-8B96-E103925F2999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAws.Shared", "AmazonAws.Shared\AmazonAws.Shared.csproj", "{7C018E86-0FE5-40AF-B9B6-2ADA5C05684B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAws.Sns", "AmazonAws.Sns\AmazonAws.Sns.csproj", "{0C7B46D2-225F-45DC-9439-F26396D1C97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAws.Sqs", "AmazonAws.Sqs\AmazonAws.Sqs.csproj", "{9C271D63-648B-40C7-AA6F-327ED778939D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonAws.Mq", "AmazonAws.Mq\AmazonAws.Mq.csproj", "{DBFA0F9A-9F6C-48A3-8E59-289F56B4B04B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B5A13BC-C0EF-47B9-AE86-00E89EB95228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5A13BC-C0EF-47B9-AE86-00E89EB95228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5A13BC-C0EF-47B9-AE86-00E89EB95228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5A13BC-C0EF-47B9-AE86-00E89EB95228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE98604-1C5C-4F5F-8B96-E103925F2999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE98604-1C5C-4F5F-8B96-E103925F2999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE98604-1C5C-4F5F-8B96-E103925F2999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE98604-1C5C-4F5F-8B96-E103925F2999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C018E86-0FE5-40AF-B9B6-2ADA5C05684B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C018E86-0FE5-40AF-B9B6-2ADA5C05684B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C018E86-0FE5-40AF-B9B6-2ADA5C05684B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C018E86-0FE5-40AF-B9B6-2ADA5C05684B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7B46D2-225F-45DC-9439-F26396D1C97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7B46D2-225F-45DC-9439-F26396D1C97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7B46D2-225F-45DC-9439-F26396D1C97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7B46D2-225F-45DC-9439-F26396D1C97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C271D63-648B-40C7-AA6F-327ED778939D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C271D63-648B-40C7-AA6F-327ED778939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C271D63-648B-40C7-AA6F-327ED778939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C271D63-648B-40C7-AA6F-327ED778939D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFA0F9A-9F6C-48A3-8E59-289F56B4B04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA0F9A-9F6C-48A3-8E59-289F56B4B04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFA0F9A-9F6C-48A3-8E59-289F56B4B04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFA0F9A-9F6C-48A3-8E59-289F56B4B04B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76003748-56CD-4726-A44B-81F5672FAD13}
+	EndGlobalSection
+EndGlobal
